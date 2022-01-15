@@ -88,19 +88,32 @@ section div{
 
 #heading h1{
     font-family: 'Poppins', sans-serif;
-    padding-left: 95px;
+   
     font-size: 52px;
     color: #3A3A3A;
     padding-top: 90px;
 }
 
 #heading p{
-    padding-left: 95px;
+    
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
     
 
+}
+
+#heading{
+    padding-left: 95px;
+}
+
+#heading a{
+    
+    height: 44px;
+    width: 196px;
+    padding: 10px 24px;
+    background-image:linear-gradient(green,yellow);
+    font-family: 'Poppins', sans-serif;
 }
     
 
