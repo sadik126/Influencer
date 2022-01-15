@@ -422,12 +422,35 @@ footer{
 
    .text{
        margin-top: -41px;
+       padding-left: 80px;
    }
+
+   
 
    .lastsection{
        margin-left: 10px;
-       margin-bottom: 20px;
+       
    }
-
+    footer{
+       margin-top: -94px;
+   }
  
 }
+
+@media only screen and (min-width:688px) and (max-width:992){
+
+    #menu,.products{
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap:20px;
+        grid-row-gap: 20px;
+        
+    }
+
+    .firstcontainer,.logosection div,.product,.footer h1{
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+}
+
