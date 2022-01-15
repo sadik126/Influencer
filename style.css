@@ -441,7 +441,7 @@ footer{
  
 }
 
-@media only screen and (min-width:688px) and (max-width:992){
+@media only screen and (min-width : 688px) and (max-width : 992px){
 
     #menu,.products{
         grid-template-columns: repeat(2, 1fr);
@@ -456,5 +456,35 @@ footer{
     }
 
 
+    .image{
+
+    }
+
+    .image img{
+        height: 314px;
+        width: 340px;
+        padding-top: 77px;
+        padding-left: 145px;
+    }
+
+    .lastsection img {
+        width: 290px;
+        height: 290px;
+        padding-top: 65px;
+    }
+
+
+    .logosection div{
+        align-items: center;
+    }
+
+    .logosection img {
+        height: 82px;
+        width: 84px;
+    }
+
+    nav .halfwidth {
+        width: 72%;
+    }
 }
 
