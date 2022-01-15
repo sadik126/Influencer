@@ -169,13 +169,31 @@ logo section starts
 
 
 .container{
-    text-align: center;
+   
 }
 
 .container h1{
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    text-align: center;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+
+.product{
+    height: 476px;
+    width: 329px;
+}
+
+.product img{
+    height: 256px;
+    width: 300px;
+
 }
    
 
