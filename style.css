@@ -191,8 +191,25 @@ logo section starts
     width: 329px;
 }
 
+.far{
+    justify-content: space-evenly;
+}
+
 .product-info{
     display: flex;
+    font-size: 14px;
+    /* position: absolute;
+    left: 96px; */
+    
+}
+
+.product-info i{
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.product-info span{
+    padding-left: 30px;
 }
 
 .product img{
