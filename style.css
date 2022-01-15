@@ -183,11 +183,16 @@ logo section starts
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 24px;
+    margin-left: 109px;
 }
 
 .product{
     height: 476px;
     width: 329px;
+}
+
+.product-info{
+    display: flex;
 }
 
 .product img{
