@@ -112,10 +112,10 @@ section div{
     height: 44px;
     width: 196px;
     padding: 10px 24px;
-    background-image:linear-gradient(green,yellow);
+    background-image:linear-gradient(#FF4331,#D31A50);
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    color: rgba(23, 23, 24, 0.781);
+    color: rgba(255, 255, 255, 0.781);
     font-weight: 700;
     border-radius: 23px;
 }
