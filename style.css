@@ -84,7 +84,7 @@ first container starts
 .firstcontainer{
     display: flex;
 }
-section div{
+.firstcontainer div{
     width: 50%;
 }
 
@@ -126,12 +126,43 @@ section div{
     height: 414px;
     width: 440px;
     padding-top: 77px;
-    padding-left: 45px;
+    padding-left: 145px;
 }
 
 /* ---------------
 first section ends
 ------------------- */
+
+
+/* --------------
+logo section starts
+------------------ */
+
+.logosection {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+   
+
+   
+}
+.logosection div{
+
+    padding-right: 26px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-column-gap:60px;
+    
+    
+}
+
+.logosection img{
+   height: 26px;
+   width: 84px;
+   
+
+}
+   
 
     
 
