@@ -139,7 +139,7 @@ logo section starts
 ------------------ */
 
 .logosection {
-    display: flex;
+    display: grid;
     justify-content: center;
     margin-top: 150px;
    
