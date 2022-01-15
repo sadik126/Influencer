@@ -81,7 +81,9 @@ navber ends
 /* --------------
 first container starts
 ------------------ */
-
+.firstcontainer{
+    display: flex;
+}
 section div{
     width: 50%;
 }
@@ -118,6 +120,13 @@ section div{
     color: rgba(255, 255, 255, 0.781);
     font-weight: 700;
     border-radius: 23px;
+}
+
+.image{
+    height: 414px;
+    width: 440px;
+    padding-top: 77px;
+    padding-left: 45px;
 }
     
 
