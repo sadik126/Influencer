@@ -373,7 +373,11 @@ footer{
     }
 
     #heading a{
-        padding: 10px 20px;
+        padding: 10px 16px;
+    }
+
+    .text a{
+        padding: 10px 16px;
     }
 
     #heading h1{
