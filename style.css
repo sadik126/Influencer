@@ -5,67 +5,83 @@
 navber starts 
 -------------*/
 
+#preloader {
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    background: #000 url(images/Infinity-1.8s-200px.gif) center no-repeat;
+    position: fixed;
+
+}
+
+
+body {
+    margin: 0;
+
+}
+
 
 .container {
     width: 100%;
-   
-    
+
+
 }
 
-nav .halfwidth{
+nav .halfwidth {
     width: 50%;
-    
+
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
     margin-left: 50px;
 }
 
-   #logo{
+#logo {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 700;
     margin-top: 50px;
     color: #3A3A3A;
     margin-left: 16px;
-    transition: transform 2s linear ;
+    transition: transform 2s linear;
 }
 
-#logo:hover{
+#logo:hover {
     transform: scale(1.10);
 }
 
- #menu{
+#menu {
     display: flex;
     margin-left: 30px;
     justify-content: center;
     margin-top: 50px;
-    
-   
+
+
 
 
 }
 
-#menu a,i{
-    padding-left:20px;
+#menu a,
+i {
+    padding-left: 20px;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
     color: #3A3A3A;
 }
 
-#menu i:hover{
+#menu i:hover {
     color: rgb(235, 114, 57);
 }
 
-#menu a:hover{
+#menu a:hover {
     color: rgb(235, 114, 57);
 }
 
-#menu i{
+#menu i {
     padding-top: 6px;
 }
 
@@ -82,40 +98,41 @@ navber ends
 /* --------------
 first container starts
 ------------------ */
-.firstcontainer{
+.firstcontainer {
     display: flex;
 }
-.firstcontainer div{
+
+.firstcontainer div {
     width: 50%;
 }
 
-#heading h1{
+#heading h1 {
     font-family: 'Poppins', sans-serif;
-   
+
     font-size: 52px;
     color: #3A3A3A;
     padding-top: 90px;
 }
 
-#heading p{
-    
+#heading p {
+
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
-    
+
 
 }
 
-#heading{
+#heading {
     padding-left: 95px;
 }
 
-#heading a{
-    
+#heading a {
+
     height: 44px;
     width: 196px;
     padding: 10px 24px;
-    background-image:linear-gradient(#FF4331,#D31A50);
+    background-image: linear-gradient(#FF4331, #D31A50);
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.781);
@@ -123,7 +140,7 @@ first container starts
     border-radius: 23px;
 }
 
-.image{
+.image {
     height: 414px;
     width: 440px;
     padding-top: 77px;
@@ -144,24 +161,25 @@ logo section starts
     justify-content: center;
     margin-top: 150px;
     margin-bottom: 100px;
-   
 
-   
+
+
 }
-.logosection div{
+
+.logosection div {
 
     padding-right: 26px;
     display: flex;
-    grid-template-columns: repeat(7,1fr);
-    grid-column-gap:60px;
-    
-    
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 60px;
+
+
 }
 
-.logosection img{
-   height: 26px;
-   width: 84px;
-   
+.logosection img {
+    height: 26px;
+    width: 84px;
+
 
 }
 
@@ -174,22 +192,22 @@ products section starts
 
 
 
-.container h1{
+.container h1 {
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-align: center;
 }
 
-.products{
+.products {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
-    grid-row-gap:30px;
+    grid-row-gap: 30px;
     margin-left: 109px;
 }
 
-.product{
+.product {
     height: 476px;
     width: 329px;
     box-shadow: 12px 12px 42px 1px gray;
@@ -197,110 +215,111 @@ products section starts
     font-family: 'Poppins', sans-serif;
 }
 
-.product h2{
+.product h2 {
     color: #18191F;
     font-weight: 400;
     padding-left: 5px;
 }
 
-.product h3{
+.product h3 {
     padding-left: 5px;
     font-weight: 400;
 }
 
-.far{
+.far {
     justify-content: space-evenly;
 }
 
-.product-info{
+.product-info {
     display: flex;
     font-size: 14px;
     /* position: absolute;
     left: 96px; */
-    
+
 }
 
-.product-info i{
+.product-info i {
     font-size: 14px;
     padding-left: 5px;
     color: rgb(194, 141, 8);
 }
 
-.product-info span{
+.product-info span {
     padding-left: 15px;
 }
 
-.product img{
+.product img {
     height: 256px;
     width: 328px;
 
 }
 
-.products a{
-   
+.products a {
+
     color: rgb(202, 89, 89);
     text-decoration: none;
-   font-size: 20px;
-   height: 10px;
-   width: 30px;
-   padding-top: 30px;
-   border-radius: 10px;
-   
-   
+    font-size: 20px;
+    height: 10px;
+    width: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+
+
 }
 
 
 
-.paragraph{
+.paragraph {
     margin-top: 5px;
     font-size: 14px;
     padding-left: 5px;
-   
+
 }
 
-.paragraph p{
+.paragraph p {
     color: #787885;
     font-family: 'Poppins', sans-serif;
 }
-   
+
 /* -----------------
 product section ends
 -------------------- */
-    
 
-.lastsection{
-    margin:70px 93px;
+
+.lastsection {
+    margin: 70px 93px;
     display: flex;
     margin-bottom: 130px;
 }
-.lastsection img{
-       width: 500px;
-       height: 290px;
+
+.lastsection img {
+    width: 500px;
+    height: 290px;
 }
 
-.text{
+.text {
     margin-top: -10px;
 }
 
-.text h1{
+.text h1 {
     margin-top: 70px;
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
 
 }
 
-.text p{
+.text p {
     font-size: 14px;
     color: rgba(49, 48, 48, 0.774);
     font-family: 'Poppins', sans-serif;
 }
 
-.text a{
-     
+.text a {
+
     height: 44px;
     width: 196px;
     padding: 10px 24px;
-    background-image:linear-gradient(#FF4331,#D31A50);
+    background-image: linear-gradient(#FF4331, #D31A50);
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.781);
@@ -308,14 +327,14 @@ product section ends
     border-radius: 23px;
 }
 
-.lastsection div{
+.lastsection div {
     width: 50%;
 }
 
 
 /* footer starts */
 
-footer{
+footer {
     height: 200px;
     background-color: rgba(15, 17, 42, 0.774);
     text-align: center;
@@ -323,72 +342,99 @@ footer{
     flex-direction: column;
 }
 
-.footer{
+.footer {
     text-align: center;
-   
+
 }
 
 
-.footer h1{
+.footer h1 {
     color: seashell;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
-.footer p{
+.footer p {
     font-family: 'Poppins', sans-serif;
     color: seashell;
 }
 
-.social i{
-  color: beige;
+.social i {
+    color: beige;
 }
+
+/* .product {
+    padding: 10px;
+} */
 
 
 
 /* media queries */
 
-@media only screen and (max-width:688px){
-    .container,.lastsection,.footer{
+@media only screen and (max-width:688px) {
+
+    .container,
+    .lastsection,
+    .footer {
         width: 100%;
         height: 100%;
     }
 
-    #menu,.navber,.lastsection{
+    #menu,
+    .navber,
+    .lastsection {
         flex-direction: column;
     }
 
-    #menu,.products{
+    .firstcontainer div {
+        width: 100%;
+    }
+
+    .image {
+        padding-left: 0;
+    }
+
+    #menu,
+    .products {
         grid-template-columns: repeat(1, 1fr);
-        grid-column-gap:20px;
+        grid-column-gap: 20px;
         grid-row-gap: 20px;
-        
+
     }
 
     /* navber ends */
 
-    .firstcontainer,.logosection div,.product,.footer h1{
+    .firstcontainer,
+    .logosection div,
+    .product,
+    .footer h1 {
         width: 100%;
         flex-direction: column;
     }
 
-    #heading a{
+
+
+    #heading a {
         padding: 10px 13px;
     }
 
-    .text a{
+    #heading {
+        padding-left: 0;
+    }
+
+    .text a {
         padding: 10px 16px;
     }
 
-    #heading h1{
+    #heading h1 {
         font-size: 35px;
     }
 
-    .image{
-        padding-left: 90px;
+    .image {
+        padding: 20px;
     }
 
-    .image img{
+    .image img {
         height: 200px;
         width: 200px;
         position: relative;
@@ -396,71 +442,87 @@ footer{
     }
 
     /* first container ends */
-  
 
-    .logosection div{
+
+    .logosection div {
         align-items: center;
-        
+
     }
-    
-    .logosection div>img{
+
+    .logosection div>img {
         padding-top: 40px;
     }
 
     .logosection {
-        margin-top:-88px ;
+        margin-top: -88px;
     }
 
     /* logo section ends */
 
-    .products{
-       margin-left: 20px;
+    .products {
+        margin-left: 20px;
     }
-   /* product section ends */
+
+    /* product section ends */
 
 
-   .lastsection img{
-       width: 160%;
-       padding-bottom: 0px;
-   }
+    .lastsection img {
+        width: 100%;
+        padding-bottom: 0px;
+    }
 
-   .text{
-       margin-top: -41px;
-       padding-left: 80px;
-   }
+    .lastsection div {
+        width: 100%;
+    }
 
-   
+    .products {
+        margin-left: 0;
+    }
 
-   .lastsection{
-       margin-left: 10px;
-       
-   }
-    footer{
-       margin-top: -94px;
-   }
- 
+    .text {
+        margin-top: -41px;
+        /* padding-left: 80px; */
+    }
+
+
+
+    .lastsection {
+        margin-left: 10px;
+
+    }
+
+    footer {
+        margin-top: -94px;
+    }
+
 }
 
-@media only screen and (min-width : 688px) and (max-width : 992px){
+@media only screen and (min-width : 688px) and (max-width : 992px) {
 
-    #menu,.products{
+    #menu,
+    .products {
         grid-template-columns: repeat(2, 1fr);
-        grid-column-gap:20px;
+        grid-column-gap: 20px;
         grid-row-gap: 20px;
-        
+
     }
 
-    .firstcontainer,.logosection div,.product,.footer h1{
+    .firstcontainer,
+    .logosection div,
+    .product,
+    .footer h1 {
         width: 100%;
         flex-direction: column;
     }
 
-
-    .image{
-
+    .firstcontainer div {
+        width: 100%;
     }
 
-    .image img{
+
+    .image {}
+
+    .image img {
         height: 314px;
         width: 340px;
         padding-top: 77px;
@@ -474,7 +536,7 @@ footer{
     }
 
 
-    .logosection div{
+    .logosection div {
         align-items: center;
     }
 
@@ -487,4 +549,3 @@ footer{
         width: 72%;
     }
 }
-
